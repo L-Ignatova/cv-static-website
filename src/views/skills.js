@@ -47,6 +47,17 @@ const skillTemplate = () => html`
                             </td>
                     </tr>
                     <tr>
+                        <td>MS Excel, Pivots, VBA, Google Apps Script</td>
+                        <td class="score">
+                            <span class="colored">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i></span>
+                                <i class="fas fa-star"></i>
+                            </td>
+                    </tr>
+                    <tr>
                         <td>HTTP, REST API, SPA, routing</td>
                         <td class="score">
                             <span class="colored">
@@ -171,7 +182,9 @@ const skillTemplate = () => html`
                 <p class="section-title"> Certificates</p>
             </article>
             <article class="experience-details">
-                <ul>
+                <ul><li>SoftUni JS Advanced (2021)</li>
+                    <li>HTML & CSS (2021)</li>
+                    <li>Python Advanced (2020)</li>
                     <li>IMF Financial Market Analysis (2017)</li>
                     <li>The Hu Xiaoling Memorial Prize (2016)</li>
                     <li>Sheffield Graduate Award (2016)</li>
