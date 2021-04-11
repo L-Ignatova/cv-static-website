@@ -4,7 +4,7 @@ const progfileTemplate = () => html`
 <section class="profile">
     <article class="title">
         <p class="head-title">Profile</p>
-        <p class="subtitle">I'm a journalist looking for a fresh start as a software developer</p>
+        <p class="subtitle">Economics graduate studying web development</p>
         <hr>
     </article>
     <article class="content">
