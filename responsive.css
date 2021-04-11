@@ -1,0 +1,37 @@
+@media all and (max-width: 700px) {
+    html {
+        font-size: 14px;
+    }
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content > section {
+        width: 100%;
+        text-align: center;
+    }
+    .content > section > ul > li{
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .experience > article {
+        width: 100%;
+    }
+ 
+    .skills .content .experience > article > ul >li {
+        display: flex;
+        justify-content: end;
+        margin-left: 50px;
+    }
+}
+

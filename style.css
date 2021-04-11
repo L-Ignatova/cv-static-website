@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+body {
+    margin: 0 auto;
+    background-color: rgb(237, 245, 224);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+i {
+    color: lightgray;
+}
+nav i {
+    color: white;
+}
+span > i {
+    color: rgb(56, 149, 131);
+}
+
+                /* menu formatting */
+nav {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(56, 149, 131);
+    color: white;
+    display: flex;
+    z-index: 1;
+}
+li.active {
+    background-color: rgb(5, 57, 107);
+}
+nav > ul {
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > ul > li {
+    list-style-type: none;
+    padding: 10px;
+}
+nav > ul > li:hover,
+nav > ul > li > a> i:hover {
+    color: rgb(209, 207, 207);
+}
+nav ul.nav-right {
+    width: 20%;
+}
+nav ul.nav-right > li:hover {
+    cursor: pointer;
+}
+/* .desktop-nav {
+    display: none;
+} */
+.mobile-nav {
+    display: none;
+}
+
+        /* main formatting */
+main {
+    max-width: 800px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+            /* profile formatting */
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+.title .head-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 0px;
+    color: rgb(56, 149, 131);
+}
+.title .subtitle  {
+    text-align: center;
+}
+.subtitle {
+    color: rgb(122, 120, 120);
+    margin: 10px;
+}
+hr {
+    background-color: darkgray;
+    opacity: 0.3;
+    z-index: -1;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content > section {
+    width: 32%;
+}
+.section-title {
+    font-size: 1.3em;
+    color: rgb(56, 149, 131);
+    margin: 10px;
+}
+.section-details {
+    margin: 10px;
+}
+img {
+    border: 10px solid rgb(56, 149, 131);
+    border-radius: 50%;
+    margin: 20px;
+    width: 150px;
+
+}
+.details-list {
+    list-style-type: none;
+    padding: 10px;
+}
+.details-list li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.details-list li > span {
+    font-weight: bold;
+}
+.details-list li > p{
+    margin: 0px 15px;
+}
+
+
+                /* education formatting  */
+
+.education .content,
+.work-experience .content,
+.skills .content {
+    flex-direction: column;
+}
+.education .content .experience,
+.work-experience .content .experience,
+.skills .content .experience {
+    width: 100%;
+    display: flex;
+}
+.experience-title {
+    width: 30%;
+}
+.experience-details {
+    width: 70%;
+}
+span.bold-font {
+    font-weight: bold;
+}
+
+            /* skills formatting  */
+table {
+    width: 80%;
+    margin: 10px;
+}
+td.score {
+    float: right;
+}
+table tr td {
+    padding: 5px;
+}
+table tr:hover {
+    background-color: rgb(222, 212, 228);
+    font-size: 1.1em;
+    transition: ease-in 0.3s;
+}
+
+            /* contacts formatting */
+.contact .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact .section-title {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+.contact .content > ul > li {
+    list-style-type: none;
+    text-align: center;
+}
+.mobile-email {
+    padding: 0px;
+}
+.social {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social > li {
+    margin: 0px 5px;
+    padding: 10px;
+    font-size: 3em;
+}
+.social > li:hover {
+    transition: ease-in 0.3s;
+    font-size: 3.3em;
+}
+.mobile-email > li > span {
+    margin-right: 10px;
+}
