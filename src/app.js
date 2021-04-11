@@ -40,6 +40,6 @@ function getDarkTheme() {
 }
 function getLightTheme() {
     document.getElementsByTagName('nav')[0].style.backgroundColor = "#389583";
-    document.getElementsByTagName('body')[0].style.backgroundColor = "#EDF5E0";
+    document.getElementsByTagName('body')[0].style.backgroundColor = "white";
     document.getElementsByTagName('html')[0].style.color = "black";
 }
