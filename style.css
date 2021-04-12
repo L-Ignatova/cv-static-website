@@ -28,15 +28,22 @@ span > i {
 }
 
                 /* menu formatting */
+header {
+    position: fixed;
+    margin: 0 auto;
+    background-color: rgb(56, 149, 131);
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
 nav {
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    background-color: rgb(56, 149, 131);
+    max-width: 1000px;
     color: white;
+    width: 100%;
     display: flex;
-    z-index: 1;
 }
 li.active {
     background-color: rgb(5, 57, 107);

@@ -34,12 +34,12 @@ function switchLight(event) {
 }
 
 function getDarkTheme() {
-    document.getElementsByTagName('nav')[0].style.background = "#222222";
+    document.getElementsByTagName('header')[0].style.background = "#222222";
     document.getElementsByTagName('body')[0].style.background = "#37474F";
     document.getElementsByTagName('html')[0].style.color = "white";
 }
 function getLightTheme() {
-    document.getElementsByTagName('nav')[0].style.backgroundColor = "#389583";
+    document.getElementsByTagName('header')[0].style.backgroundColor = "#389583";
     document.getElementsByTagName('body')[0].style.backgroundColor = "white";
     document.getElementsByTagName('html')[0].style.color = "black";
 }
