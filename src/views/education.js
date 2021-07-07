@@ -15,7 +15,7 @@ const educationTemplate = () => html`
             </article>
             <article class="experience-details">
                 <p><span class="bold-font">Course - Software Development with Python</span></p>
-                <p>Studying front-end, back-end, web apps. Devleoped logical thinking, problem solving, OOP
+                <p>Studying front-end, back-end web development. Developed logical thinking, problem solving, studied OOP
                     and functional programming.</p>
             </article>
         </section>
