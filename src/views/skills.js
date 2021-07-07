@@ -11,64 +11,19 @@ const skillTemplate = () => html`
             <article class="experience-title">
                 <p class="section-title">Web tools</p>
             </article>
-            <article class="experience-details">
-                <table>
-                    <tr>
-                        <td>HTML5, CSS3</td>
-                        <td class="score">
-                            <span class="colored">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i></span>
-                                <i class="fas fa-star"></i>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td>JavaScript, Python</td>
-                        <td class="score">
-                            <span class="colored">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i></span>
-                                <i class="fas fa-star"></i>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td>VSCode, PyCharm</td>
-                        <td class="score">
-                            <span class="colored">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i></span>
-                                <i class="fas fa-star"></i>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td>MS Excel, Pivots, VBA, Google Apps Script</td>
-                        <td class="score">
-                            <span class="colored">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i></span>
-                                <i class="fas fa-star"></i>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td>HTTP, REST API, SPA, routing</td>
-                        <td class="score">
-                            <span class="colored">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i></span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </td>
-                    </tr>
-                </table>
+            <article class="experience-details web-tools">
+                <p>JavaScript</p>
+                <p>VSCode</p>
+                <p>Python</p>
+                <p>PyCharm</p>
+                <p>PostgreSQL</p>
+                <p>Django</p>
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>Bootstrap</p>
+                <p>ReactJS</p>
+                <p>Google Apps Script</p>
+                <p>MS Excel (Pivots, VBA)</p>
             </article>
         </section>
         <section class="experience">
@@ -182,7 +137,8 @@ const skillTemplate = () => html`
                 <p class="section-title"> Certificates</p>
             </article>
             <article class="experience-details">
-                <ul><li>SoftUni JS Advanced (2021)</li>
+                <ul><li>Python Web Basics (2021)</li>
+                    <li>SoftUni JS Advanced (2021)</li>
                     <li>HTML & CSS (2021)</li>
                     <li>Python Advanced (2020)</li>
                     <li>IMF Financial Market Analysis (2017)</li>

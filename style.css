@@ -164,11 +164,24 @@ img {
 .experience-details {
     width: 70%;
 }
+
 span.bold-font {
     font-weight: bold;
 }
 
             /* skills formatting  */
+.experience-details.web-tools{
+    display: flex;
+    flex-wrap: wrap;
+}
+.experience-details.web-tools > p {
+    background-color: rgb(209, 207, 207);
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    width: fit-content;
+
+}
 table {
     width: 80%;
     margin: 10px;
