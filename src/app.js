@@ -4,6 +4,7 @@ import {render} from 'https://unpkg.com/lit-html?module';
 import { educationPage } from "./views/education.js";
 import { workPage } from "./views/work.js";
 import { skillPage } from "./views/skills.js";
+import { projectsPage } from "./views/projects.js";
 
 const container = document.getElementById('container');
 document.querySelectorAll('.nav-right > li > i').forEach(bulb => {
@@ -15,6 +16,7 @@ page('/index.html', decorateCtx, profilePage);
 page('/education', decorateCtx, educationPage);
 page('/work', decorateCtx, workPage);
 page('/skills', decorateCtx, skillPage);
+page('/projects', decorateCtx, projectsPage);
 page.start();
 
 function decorateCtx(context, next) {
