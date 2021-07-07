@@ -279,7 +279,7 @@ table tr:hover {
 }
 
 .project:hover img {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .project:hover p {
     display: block;
